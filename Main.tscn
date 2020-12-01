@@ -4,5 +4,8 @@
 
 [node name="Main" type="Node"]
 
-[node name="Node2D" parent="." instance=ExtResource( 1 )]
-position = Vector2( 151.453, 172.834 )
+[node name="pegs2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 135, 133 )
+
+[node name="pegs" parent="." instance=ExtResource( 1 )]
+position = Vector2( 193, 134 )
