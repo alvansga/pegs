@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://resources/board.png" type="Texture" id=1]
+
+[node name="OneBoard" type="Node"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = -37.1947
+margin_top = -26.2631
+margin_right = 762.805
+margin_bottom = 573.737
+rect_scale = Vector2( 0.106034, 0.106034 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}

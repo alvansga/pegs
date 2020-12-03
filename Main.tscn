@@ -1,11 +1,26 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://pegs.tscn" type="PackedScene" id=1]
+[ext_resource path="res://exampleBoard.tscn" type="PackedScene" id=2]
 
 [node name="Main" type="Node"]
 
+[node name="ColorRect" type="ColorRect" parent="."]
+light_mask = 0
+margin_right = 1038.0
+margin_bottom = 612.0
+mouse_filter = 2
+color = Color( 0.835294, 0.435294, 0.964706, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Board" parent="." instance=ExtResource( 2 )]
+
 [node name="pegs2" parent="." instance=ExtResource( 1 )]
-position = Vector2( 135, 133 )
+position = Vector2( 239, 241 )
+collision_mask = 0
 
 [node name="pegs" parent="." instance=ExtResource( 1 )]
-position = Vector2( 193, 134 )
+position = Vector2( 318, 130 )
+collision_mask = 0
