@@ -23,4 +23,3 @@ position = Vector2( 318.198, 130.108 )
 
 [node name="pegs" parent="." instance=ExtResource( 1 )]
 position = Vector2( 318, 130 )
-collision_mask = 0
